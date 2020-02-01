@@ -12,6 +12,7 @@
 //! assert_eq!(store.get("key1".to_owned()), None);
 //! ```
 use std::collections::HashMap;
+mod error;
 
 /// The struct contains inner data strcture.
 #[derive(Debug, Default)]

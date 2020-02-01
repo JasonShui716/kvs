@@ -9,6 +9,7 @@ description = "A key-value store"
 
 [dependencies]
 structopt = "0.3.8"
+failure = "0.1.6"
 
 [dev-dependencies]
 assert_cmd = "0.11.0"
